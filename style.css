@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #f1faee;
 }
-
+/*navigation bar start*/
 #navbar {
     width: 100%;
     position: fixed;
@@ -38,7 +38,9 @@ a {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
+/*navigation bar end*/
 
+/*welcome section start*/
 #welcome-section {
     width: 100%;
     height: 100vh;
@@ -60,7 +62,9 @@ p {
     font-style: italic;
     font-size: 25px;
 }
+/*welcome section end*/
 
+/*project section start*/
 .project-title {
 	text-align: center;
     font-size: 40px;
@@ -115,7 +119,9 @@ img {
     align-items: center;
     justify-content: center;
 }
+/*project section end*/
 
+/*contact section start*/
 #contact {
     display: flex;
     flex-direction: column;
@@ -149,6 +155,7 @@ h2 {
 		grid-template-rows: repeat(3, 50vw);
 	}
 }
+/*contact section end*/
 
 @media (max-width: 580px) {
 
