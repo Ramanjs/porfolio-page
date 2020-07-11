@@ -160,4 +160,16 @@ h2 {
 		grid-template-columns: 90vw;
 		grid-template-rows: repeat(6, 110vw);
 	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.project-title, h2 {
+		font-size: 30px;
+	}
 }
